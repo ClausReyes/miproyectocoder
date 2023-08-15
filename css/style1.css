@@ -63,8 +63,9 @@ header a:hover{
 
 }
 
-.call{background-color: rgba(155, 155, 155, .6);
-font-size: medium;}
+.call{background-color: rgba(250, 251, 253, .6);
+font-size: medium;
+}
 
 main div p {
     font-size: 50px;
@@ -128,7 +129,7 @@ padding: 10px;}
 
     
 
-    main div p {font-size: 25px;}
+    .main div p {font-size: 25px;}
     .formato
     {margin: 25px;
     padding:10px;
@@ -137,8 +138,14 @@ border-style: double;
 border-width: 5px;
 }
 
+.video{display: flex;
+justify-content: flex-end;}
 
-
+.jumbotron aside p{
+    font-size: 20px;
+    color: black;
+    background-color: rgba(250, 251, 253, .2)
+}
 .fondo-servicios
 {background-color: rgba(155, 155, 155,.9);}
 .carta{
@@ -173,6 +180,12 @@ border-width: 5px;
     background-size: cover;
     background-position: center;
 }
+.jumbotron{background-image: url(../img/imagenfondoquehacemos.jpg);
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+
+;}
 
 .carta-imagen4{
     height: 300px;
@@ -206,8 +219,9 @@ border-width: 5px;
 .section p{font-size: medium;}
 
 .titulo-que
-{padding-top:50px;
-text-align: center;}
+{padding-top:10px;
+text-align: center;
+color: black;}
 
 .section  a{
     font-size: medium;
@@ -223,9 +237,7 @@ justify-content: baseline;
     height: 700px;
     }
 
-    .fondo-nosotros{background-image: url(../img/fondonos\ -\ Copy.jpg);
-    background-size: cover;
-background-attachment: fixed;}
+    
 
 .galeria{
     display: grid;
@@ -293,3 +305,9 @@ transform: scale(1.2);}
 1200px Para pantallas panorámicas, principalmente portátiles y de escritorio*/
 
 
+@media only screen and (min-width:0) and (max-width:576px){.navbar-collapse{
+    background-color: beige;
+    display: flex;
+    justify-content: center !important;
+}
+}
