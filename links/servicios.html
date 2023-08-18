@@ -1,34 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <!--Iniciamos con Bootstrap v5.13-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--Terminamos con Bootstrap v5.13-->
+    <title>Bianco & Piccolo</title>
+    <link rel="stylesheet" href="../css/style1.css">
     <link rel="icon" href="../img/favicon.png">
 </head>
-<body >
-    <header>
-          <aside class="logo">
-    <img src="../img/logo.png">
-          </aside>      
-      <nav class="menu">
-        
-        <ul>
-        <li><a href="../index.html">Inicio </a></li>
-        <li><a href="#">Nosotros</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
-        <li><a href="galeria.html">Galeria</a></li>
-        <li><a href="servicios.html">Servicios</a></li>
-        
-    </ul> 
-        
-      </nav>
-    </header>
+
+<body>
+    <!--inicia la navbar-->
+    <nav class="navbar navbar-expand-sm  navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"> <img src="../img/logo.png" ></a>
+
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-flex justify-content-end" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeria.html">Galeria</a>
+                    </li><li class="nav-item">
+                        <a class="nav-link" href="servicios.html">Servicios</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--termina  la navbar-->
     <main >
-  
-<section class="section">    
-  <article class="carta">
+      <h1 class="titulo">Servicios</h1>
+<section class="section container-fluid  ">  
+  <div class="row">
+
+  <article class="carta col-sm-2 "> 
     <div class="carta-imagen"></div>
     <h2 class="carta-titulo">Renta basica</h2>
     <p class="carta-descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, nemo.</p>
@@ -36,8 +58,8 @@
 </article>
 
 
-  <article class="carta">
-    <div class="carta-imagen2"></div>
+  <article class="carta container-fluid">
+    <div class="carta-imagen2 "></div>
     <h2 class="carta-titulo">Renta basica con chofer</h2>
     <p class="carta-descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, nemo.</p>
     <a hrf="#">Ordenar</a>
@@ -51,11 +73,26 @@
     <a hrf="#">Ordenar</a>
 </article>
 
-  <article class="carta">
-    <div class="carta-imagen4"></div>
-    <h2 class="carta-titulo">Renta premium con sesion fotografica</h2>
-    <p class="carta-descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, nemo.</p>
-    <a hrf="#">Ordenar</a>
+<article class="carta">
+  <div class="carta-imagen3"></div>
+  <h2 class="carta-titulo">Renta premiun</h2>
+  <p class="carta-descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, nemo.</p>
+  <a hrf="#">Ordenar</a>
+</article>
+
+<article class="carta">
+  <div class="carta-imagen3"></div>
+  <h2 class="carta-titulo">Renta premiun</h2>
+  <p class="carta-descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, nemo.</p>
+  <a hrf="#">Ordenar</a>
+</article>
+<article class="carta">
+  <div class="carta-imagen3"></div>
+  <h2 class="carta-titulo">Renta premiun</h2>
+  <p class="carta-descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, nemo.</p>
+  <a hrf="#">Ordenar</a>
+</article>
+  </div>
 </article>
 
 </section>
