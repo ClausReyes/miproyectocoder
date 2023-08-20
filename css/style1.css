@@ -128,18 +128,26 @@ padding: 10px;}
     }
 
     
-
+.footer-contacto{height: auto;}
     .main div p {font-size: 25px;}
     .formato
-    {margin: 25px;
-    padding:10px;
+    {margin: 100px;
+   ;
 border-color: black;
 border-style: double;
 border-width: 5px;
+height: 600px;
 }
 
+.formato-fondo{background-image: url(../img/fondonos\ -\ Copy.jpg);
+background-size: cover;
+background-attachment: fixed;
+margin:20px ;}
 .video{display: flex;
-justify-content: flex-end;}
+justify-content: center     ;
+margin: 20px;}
+
+.comentarios{height: 50px;}
 
 .jumbotron aside p{
     font-size: 20px;
