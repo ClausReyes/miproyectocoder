@@ -340,3 +340,24 @@ transform: scale(1.2);}
     
     
 }}
+
+@media only screen and (min-width:0) and (max-width:754px){.call p      {
+    background-color: violet;
+    font-size: 20px;
+color: black;}}
+
+@media only screen and (min-width:0) and (max-width:754px){.call a   {
+    
+    font-size: 20px;
+color: violet;
+background-color: azure;
+}}
+
+@media only screen and (min-width:0) and (max-width:754px){.footer div p{
+font-size: 15px;
+color: aqua;}
+}
+
+@media only screen and (min-width:0) and (max-width:496px){ .video{width: 30px;
+}}
+
