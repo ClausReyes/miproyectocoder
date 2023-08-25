@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,400&family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;}
+
+
+.navbar{background-color: palevioletred;}
+
+@media only screen and (min-width:768px) {.navbar-collapse{
+    display: flex;
+    justify-content: end;
+ }}
+
+ @media only screen and (min-width:0) and (max-width:754px){.call p      {
+    background-color: palevioletred;
+    font-size: 20px;
+color: black;}}
+
+@media only screen and (min-width:0) and (max-width:754px){.call a   {
+    
+    font-size: 20px;
+color: violet;
+background-color: azure;
+}} 
+
+@media only screen and (min-width:768px){.footer p  {
+    
+    font-size: 30px;
+color: white;
+
+}} 
+
+@media only screen and (min-width:768px){.footer   {
+ height: 200px;
+
+}}
+
+main a {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    color: palevioletred;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+ .principal{height: 800px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+ background-image: url(../img/imagen1.png.jpeg);}
+
+ .call{background-color: rgba(250, 251, 253, .8);
+    font-size: 30px;
+    }
+
+    footer{
+        height: 200px;
+        display: flex;
+        justify-content: space-between; padding: 30px;
+        font-size: 15px;
+        color: beige;
+        background-color: black;
+    }
+
+    main .call :hover{
+        color: black;
+    } 
+    
+Footer img{ height: 50px;
+    width: 50px;
+padding: 10px;}

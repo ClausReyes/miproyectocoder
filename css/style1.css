@@ -46,9 +46,7 @@ header a{
   
 }
 
-header a:hover{
-    color: rgba(155, 155, 155,.9);
-}
+
 
 .principal{height: 700px;
     width: 100%;
@@ -333,7 +331,7 @@ transform: scale(1.2);}
     justify-content: center !important;
 }}
 
-@media only screen and (min-width:0) and (max-width:500px){.carta-imagen{
+@media only screen and (min-width:1200px){.carta-imagen{
     background-color: gray;
     display: flex;
     justify-content: center!important;
