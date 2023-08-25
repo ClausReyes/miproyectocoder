@@ -21,17 +21,32 @@ font-family: 'Roboto', sans-serif;*/
     font-size: 20px;
 color: black;}}
 
+@media only screen and (min-width:0) and (max-width:754px){.principal img  {
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+ background-image: white }
+
+
+}
+
 @media only screen and (min-width:0) and (max-width:754px){.call a   {
     
     font-size: 20px;
-color: violet;
-background-color: azure;
-}} 
+color: pink;
+
+
+}}
 
 @media only screen and (min-width:768px){.footer p  {
     
     font-size: 30px;
-color: white;
+color: palevioletred;
 
 }} 
 
@@ -45,7 +60,7 @@ main a {
     justify-content: center;
     align-content: center;
     align-items: center;
-    color: palevioletred;
+    color: pink;
     font-size: 30px;
     text-decoration: none;
 }
@@ -57,10 +72,10 @@ main a {
     display: flex;
     justify-content: center;
     align-content: center;
-    align-items: center;
+    align-items: center;background-attachment: fixed;
  background-image: url(../img/imagen1.png.jpeg);}
 
- .call{background-color: rgba(250, 251, 253, .8);
+ .call {background-color: palevioletred;
     font-size: 30px;
     }
 
@@ -69,8 +84,8 @@ main a {
         display: flex;
         justify-content: space-between; padding: 30px;
         font-size: 15px;
-        color: beige;
-        background-color: black;
+        color: pink;
+        background-color:black;
     }
 
     main .call :hover{
@@ -79,4 +94,4 @@ main a {
     
 Footer img{ height: 50px;
     width: 50px;
-padding: 10px;}
+padding: 5px;}
