@@ -95,3 +95,65 @@ main a {
 Footer img{ height: 50px;
     width: 50px;
 padding: 5px;}
+
+.titulo{padding-top:10px;
+    text-align: center;
+    color: black;
+font-family: 'Open Sans', sans-serif;}
+    
+    .galeria{padding: 100px;
+        
+        justify-content: space-around;
+        height: 650px;
+        margin-bottom: 5px;
+        display: grid;
+        width: 100%;
+        display: grid;
+        background-color: grey;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 200px);
+        grid-template-areas: "img1 img2 img3 img3"
+                              "img1 img4  img5 img6"
+                              "img7 img4 img8 img8";
+        grid-gap: 16px;
+        padding: 10px;
+        }
+
+        .item{
+            border:4px solid black;
+             background-size: cover;
+            background-position: center;
+            transition: all  0.7s; }
+            .item1{
+                background-image: url(../img/botongaleria.jpg);
+                grid-area: img1;
+               }
+               .item2{background-image:url(../img/imagenheroe.png);
+            grid-area: img2;}
+            
+               .item3{background-image: 
+                url(../img/imagenfondoquehacemos.jpg);
+            grid-area: img3;}
+            
+            .item4{background-image: url(../img/imagenquiensomos.jpeg);
+            grid-area: img4;}
+            
+            .item5{
+                background-image: url(../img/imagen5.jpg);
+                grid-area: img5;
+            }
+            .item6{
+                background-image: url(../img/imagen6.jpg);
+                grid-area: img6;
+            }
+            .item7{background-image: url(../img/imagen7.jpg);
+            grid-area: img7;}
+            
+            .item8{background-image: url(../img/imagen8.jpg);
+            grid-area: img8;}
+            
+            
+            
+            .item:hover{ 
+                filter: grayscale(0%);
+            transform: scale(1.2);}
