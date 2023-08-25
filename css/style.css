@@ -101,6 +101,22 @@ padding: 5px;}
     color: black;
 font-family: 'Open Sans', sans-serif;}
     
+@media only screen and (max-width:350px) and (max-width:476px) {.galeria   {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(8, 200px); 
+    grid-template-areas: "img1"
+    "img2"
+    "img3"
+    "img4"
+    "img5"
+    "img6"
+    "img7"
+    "img8"
+   ;
+
+
+}}
+
     .galeria{padding: 100px;
         
         justify-content: space-around;
@@ -109,7 +125,7 @@ font-family: 'Open Sans', sans-serif;}
         display: grid;
         width: 100%;
         display: grid;
-        background-color: greyq
+        background-color: grey;
         ;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(3, 200px);
