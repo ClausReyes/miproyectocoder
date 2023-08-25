@@ -109,7 +109,8 @@ font-family: 'Open Sans', sans-serif;}
         display: grid;
         width: 100%;
         display: grid;
-        background-color: grey;
+        background-color: greyq
+        ;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(3, 200px);
         grid-template-areas: "img1 img2 img3 img3"
