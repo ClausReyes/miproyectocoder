@@ -91,7 +91,7 @@ main a {
     align-content: center;
     align-items: center;
     background-attachment: fixed;
-    background-image: url(../img/imagen1.png.jpeg);
+    background-image: url(../img/botongaleria.jpg);
 }
 
 .call {
@@ -145,10 +145,10 @@ Footer img {
 }
 
 .galeria {
-    padding: 50px;
+    padding: 100px;
 
     justify-content: space-around;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
     display: grid;
     width: 100%;
     display: grid;
@@ -231,16 +231,7 @@ Footer img {
     }
 }
 
-@media only screen and (min-width:450px) {
-    .footer-galeria {
-        height: 1400px;
-        display: flex;
-        justify-content: space-between; padding: 30px;
-        font-size: 15px;
-        color: beige;
-        background-color: black;
-    }
-} 
+ 
 @media only screen and (min-width:750px){
     .galeria{
         grid-template-columns: repeat(4, 1fr);
