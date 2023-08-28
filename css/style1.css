@@ -244,7 +244,9 @@ justify-content: baseline;
     display: flex;
     justify-content: space-around;
     background-color: grey;
-    height: 700px;
+    height: auto;
+
+  
     }
 
     
@@ -319,7 +321,8 @@ transform: scale(1.2);}
 1024px   Tabletas como el iPad (1024×768), en modo horizontal, así como algunas pantallas de ordenador portátil, netbook, y de escritorio
 1200px Para pantallas panorámicas, principalmente portátiles y de escritorio*/
 
-.footer{padding: 10px;}
+.footer{padding: 10px;
+}
 
 
 
