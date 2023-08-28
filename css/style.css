@@ -146,7 +146,7 @@ Footer img {
 
 .galeria {
     padding: 50px;
-height: 650px;
+
     justify-content: space-around;
     margin-bottom: 5px;
     display: grid;
@@ -225,10 +225,22 @@ height: 650px;
 
 @media only screen and (min-width:450px) {
     .galeria {
+        
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(4, 200px);
     }
 }
+
+@media only screen and (min-width:450px) {
+    .footer-galeria {
+        height: 1400px;
+        display: flex;
+        justify-content: space-between; padding: 30px;
+        font-size: 15px;
+        color: beige;
+        background-color: black;
+    }
+} 
 @media only screen and (min-width:750px){
     .galeria{
         grid-template-columns: repeat(4, 1fr);
