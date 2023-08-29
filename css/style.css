@@ -45,6 +45,7 @@ font-family: 'Roboto', sans-serif;*/
 
 }
 
+
 @media only screen and (min-width:0) and (max-width:754px) {
     .call a {
 
@@ -98,7 +99,11 @@ main a {
     background-color: palevioletred;
     font-size: 30px;
 }
-
+.contenedor-carta{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, 200px);
+}
 footer {
     height: 200px;
     display: flex;
@@ -113,12 +118,18 @@ main .call :hover {
     color: black;
 }
 
+    
+
 Footer img {
     height: 50px;
     width: 50px;
     padding: 5px;
 }
 
+div .card-text{
+    font-size: 10px !important ;
+   padding-right: 30px !important ;
+   margin-right: 12px !important;}
 .titulo {
     padding-top: 10px;
     text-align: center;
@@ -145,18 +156,16 @@ Footer img {
 }
 
 .galeria {
-    padding: 100px;
-
+    padding: 70px;
     justify-content: space-around;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
     display: grid;
     width: 100%;
     display: grid;
-    background-color: grey;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(8, 200px);
     grid-gap: 10px;
-    padding: 10px;
+
 }
 
 .item {
@@ -217,12 +226,21 @@ Footer img {
 }
 
 
+.
 
 .item:hover {
     filter: grayscale(0%);
     transform: scale(1.2);
 }
-
+.jumbotron{
+    background-image: url(../img/imagenfondoquehacemos.jpg) !important;
+    background-size: cover;
+    background-position: center;
+    
+}
+.jumbotron aside p{
+    background-color:rgba(255, 255, 255, .4)
+}
 @media only screen and (min-width:450px) {
     .galeria {
         
@@ -230,6 +248,18 @@ Footer img {
         grid-template-rows: repeat(4, 200px);
     }
 }
+
+
+.boton-rosa{
+    background-color: pink;
+    color: white;
+    display: flex;
+    justify-content: center;
+   margin-right: 45px;
+   margin-left: 5px;
+    
+}
+
 
  
 @media only screen and (min-width:750px){
@@ -283,3 +313,16 @@ Footer img {
         grid-row: 3/4;
     }
 }
+@media only screen and (min-width:450px) {
+    .fondo-servicios {
+        
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 200px);
+    }
+}
+
+@media only screen and (min-width:750px){
+    .fondo-servicios{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat (1, 200px);
+    }

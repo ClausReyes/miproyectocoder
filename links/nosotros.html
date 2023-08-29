@@ -10,7 +10,7 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!--Terminamos con Bootstrap v5.13-->
     <title>Nosotros</title>
-    <link rel="stylesheet" href="../css/style1.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="icon" href="../img/favicon.png">
 </head>
 
@@ -18,63 +18,56 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
-    <!--inicia la navbar-->
-    <nav class="navbar navbar-expand-sm  navbar-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"> <img src="../img/logo.png"></a>
+  <!--inicia la navbar-->
+  <nav class="navbar navbar-expand-sm  navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="../img/logo.png" alt="logo" class="img-navbar" ></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse  " id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Galeria</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="servicios.html">Servicios</a>
+                </li>
 
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse d-flex justify-content-end" id="collapsibleNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="../index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contacto.html">Contacto</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="galeria.html">Galeria</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="servicios.html">Servicios</a>
-                    </li>
-                </ul>
-            </div>
+            </ul>
         </div>
-    </nav>
-    <!--termina  la navbar-->
+    </div>
+</nav>
+<!--termina  la navbar-->
 
     <!-- inicia jumbotron-->
-
-    <div class=" p-5  text-white rounded jumbotron">
-        <h2 class="titulo-que">¿Quienes somos?</h2> <br>
+<main class="fondo-nosotros">
+    <div class=" p-5  text-black rounded jumbotron ">
+        <h2 >¿Quienes somos?</h2> <br>
         <aside>
             <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas quas odio veniam accusantium
                 inventore ea itaque enim ullam, expedita natus ab reprehenderit asperiores nemo illo. Lorem ipsum dolor
                 sit amet consectetur adipisicing elit. Aperiam dolores esse culpa omnis qui dolor, tenetur fugit
-                reprehenderit facilis perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-                fuga et rerum animi alias illum ratione quas accusamus tempora quaerat. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Illo dignissimos cum rem aperiam, aliquid ad deserunt doloremque qui quo
-                eaque tenetur. Rem quisquam est magnam omnis minima placeat ea rerum?
-                Et at dolum dolore enim quos amet sit nisi sapiente molestiae soluta tenetur sunt dolor. Incidunt ut
-                fugit excepturi beatae accusantium.
+                reprehenderit facilis perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing 
                 A vel tenetur quae culpa, rerum veniam ad quas sequi ab nisi esse tempora, laborum labore in. Magnam
                 accusamus optio voluptate perferendis molestias a doloribus expedita voluptatibus quis!</p>.
-        </aside>
+                <div class="ratio ratio-16x9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZVLUJsESiuo?si=H4U1W1G26Hwkyrf-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  </div>  
+            </aside>
         </div >
-        <div >
-          <div class="ratio ratio-16x9">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/ZVLUJsESiuo?si=H4U1W1G26Hwkyrf-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-          </div>  
-        </div>
-    
+        
     
     </main>
     <footer>
@@ -86,7 +79,7 @@
             <a href="http://pinterest.com"><img src="../img/pinterest.png" alt="pinterest logo"></a>
         </div>
         <div>
-            <h3>Contacto:</h3>
+            <p>Contacto:</p> <br>
             <p> Tel: 333-333-3333 </p>
 
         </div>
