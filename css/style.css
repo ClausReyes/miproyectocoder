@@ -99,11 +99,8 @@ main a {
     background-color: palevioletred;
     font-size: 30px;
 }
-.contenedor-carta{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(8, 200px);
-}
+
+
 footer {
     height: 200px;
     display: flex;
@@ -118,7 +115,7 @@ main .call :hover {
     color: black;
 }
 
-    
+  
 
 Footer img {
     height: 50px;
@@ -136,7 +133,7 @@ div .card-text{
     color: black;
     font-family: 'Open Sans', sans-serif;
 }
-
+.shadow p{text-shadow: 0 0 7px whitesmoke;}
 @media only screen and (max-width:350px) and (max-width:476px) {
     .galeria {
         grid-template-columns: repeat(2, 1fr);
@@ -155,6 +152,16 @@ div .card-text{
     }
 }
 
+.servicios{   padding: 70px;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    display: grid;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 300px);
+    grid-gap: 10px;
+    }
 .galeria {
     padding: 70px;
     justify-content: space-around;
@@ -168,7 +175,11 @@ div .card-text{
     background-color: grey;
 
 }
-
+.servicios1{
+    background-image: url(../img/ad472f8c-3a16-4af3-b216-67bedb406ccc_5_182899-160694364042481.jpeg);
+background-size: cover;
+background-position: center;
+max-width: 100%;}
 .item {
     border: 4px solid black;
     background-size: cover;
@@ -239,9 +250,8 @@ div .card-text{
     background-position: center;
     
 }
-.jumbotron aside p{
-    background-color:rgba(255, 255, 255, .4)
-}
+
+
 @media only screen and (min-width:450px) {
     .galeria {
         
@@ -322,8 +332,3 @@ div .card-text{
     }
 }
 
-@media only screen and (min-width:750px){
-    .fondo-servicios{
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat (1, 200px);
-    }
