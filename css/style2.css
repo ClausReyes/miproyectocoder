@@ -42,8 +42,8 @@ font-family: 'Roboto', sans-serif;*/
     padding: 70px;
     justify-content: space-around;
     grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(3, 200px);
-        gap: 300px;
+        grid-template-rows: repeat(3, auto);
+        gap: 50px;
         grid-template-areas: "carta1"
         "carta2"
         "carta3";
@@ -269,8 +269,17 @@ div .card-text{
     background-position: center;
     
 }
-
-
+.formato
+{
+    margin: 5px;
+    padding: 5px;
+}
+@media only screen and (min-width:450px){.formato{
+    border-color: black;
+    border-style: double;
+    border-width: 5px;
+    margin: 50px;
+}}
 @media only screen and (min-width:450px) {
     .galeria {
         

@@ -132,13 +132,8 @@ padding: 10px;}
 .footer-contacto{height: auto;}
     .main div p {font-size: 25px;}
     .formato
-    {margin: 100px;
-   ;
-border-color: black;
-border-style: double;
-border-width: 5px;
-height: 600px;
-}
+    {margin: 100px;}
+
 
 .formato-fondo{background-image: url(../img/fondonos\ -\ Copy.jpg);
 background-size: cover;
