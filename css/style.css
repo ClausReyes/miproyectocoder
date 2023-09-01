@@ -55,11 +55,7 @@ font-family: 'Roboto', sans-serif;*/
 
     }
 }
-@media only screen and (min-width:768px) {.formato-fondo{
-    border-color: black;
-    border-style: double;
-    border-width: 5px;  
-}}
+
 @media only screen and (min-width:768px) {
     .footer p {
 

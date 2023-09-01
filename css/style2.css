@@ -273,6 +273,7 @@ div .card-text{
 {
     margin: 5px;
     padding: 5px;
+    background-color: antiquewhite;
 }
 @media only screen and (min-width:450px){.formato{
     border-color: black;
