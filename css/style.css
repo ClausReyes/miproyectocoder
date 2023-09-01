@@ -115,7 +115,8 @@ main .call :hover {
     color: black;
 }
 
-
+.footer p a {display: flex;
+justify-items: center;}
 
 Footer img {
     height: 50px;
