@@ -9,6 +9,29 @@ font-family: 'Roboto', sans-serif;*/
     box-sizing: 0;
 }
 
+/* inicia transformaciones en Servicios*/
+.transform{
+    transition: 3s;
+    background-image: linear-gradient(80deg, pink , palevioletred);
+    transform: scale(1.1);
+    color: white;
+    display: flex;
+    justify-content: center;
+   margin-right: 45px;
+   margin-left: 5px;
+}
+
+.formato
+{
+    margin: 5px;
+    padding: 10px;
+
+
+    background-image: linear-gradient(60deg, palevioletred 55%, #DDD6F3 100%);
+  }
+    
+
+/* termina transformaciones*/
 
 .navbar {
     background-color: palevioletred;
@@ -24,8 +47,10 @@ font-family: 'Roboto', sans-serif;*/
 @media only screen and (min-width:0) and (max-width:754px) {
     .call p {
         background-color: palevioletred;
+     
         font-size: 20px;
         color: black;
+        padding: 15px;
     }
 }
 
@@ -67,7 +92,7 @@ font-family: 'Roboto', sans-serif;*/
 
 @media only screen and (min-width:768px) {
     .footer {
-        height: 200px;
+        height: 150px;
 
     }
 }
@@ -98,6 +123,12 @@ main a {
 .call {
     background-color: palevioletred;
     font-size: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;;
+    text-align: center;
+
 }
 
 
@@ -248,17 +279,16 @@ height:auto;}}
 }
 
 
-.formato
-{
-    margin: 10px;
-    padding: 5px;
-    background-color: antiquewhite;
-}
+
+  
 @media only screen and (min-width:450px){.formato{
     border-color: black;
     border-style: double;
     border-width: 5px;
-    margin: 50px;}}
+    
+width: 50%;
+margin-left: 280px;
+}}
 .item:hover {
     filter: grayscale(0%);
     transform: scale(1.2);
