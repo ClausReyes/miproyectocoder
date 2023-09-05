@@ -11,7 +11,7 @@ font-family: 'Roboto', sans-serif;*/
 .whatsapp{width: 100px;
 display: flex;
 position: fixed;
-top: 50px;right: 100px;}
+top: 40px; right:800px;}
 
 
 
@@ -43,6 +43,14 @@ top: 50px;right: 100px;}
     background-color: palevioletred;
 }
 
+@media only screen and (min-width:0) and (max-width:754px) {
+    .whatsapp {width: 90px;
+        display: flex;
+        position: fixed;
+        top: 79px; right:35px;
+        
+    }
+}
 @media only screen and (min-width:768px) {
     .navbar-collapse {
         display: flex;
