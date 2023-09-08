@@ -19,6 +19,10 @@ font-family: 'Roboto', sans-serif;*/
   margin-left: 5px;
 }
 
+.fondo-contacto {
+  background-image: url(./img/fondo.jpg);
+}
+
 .formato {
   margin: 5px;
   padding: 10px;
@@ -245,7 +249,7 @@ div .card-text {
 }
 
 .item7 {
-  background-image: url(../img/imagen7.jpg);
+  background-image: url(./img/imagen7.jpg);
   /* grid-column: 1/2;
   grid-row: 3/4; */
 }
