@@ -400,29 +400,28 @@ $color2:  pink;
 
 
 
-
-.btn-wsp {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-color: #25d366;
-  color: white;
-  padding: 10px;
-  border-radius: 50px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  font-family: "Roboto", sans-serif;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  cursor: pointer;
-}
-
-.btn-wsp i {
-  width: 24px;
-  height: 24px;
-}
-
-.btn-wsp a {
-  color: $color2;
-  text-decoration: none;
-}
+.whatsapp-button {
+    position: fixed;
+    bottom: 200px;
+    right: 20px;
+    background-color: $color1;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+  }
+  
+  .whatsapp-button i {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .whatsapp-button a {
+    color: white;
+    text-decoration: none;
+  }
